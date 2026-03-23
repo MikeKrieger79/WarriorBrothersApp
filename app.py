@@ -25,7 +25,7 @@ if not st.session_state["autenticado"]:
     st.stop()
 
 # --- 2. APLICACIÓN PRINCIPAL ---
-st.title("🛡️ Los Hermanos Guerreros")
+st.title("🛡️ The Warrior Brothers")
 st.subheader("Especialistas en Cuero y Calzado")
 
 with st.form("form_warrior", clear_on_submit=True):
